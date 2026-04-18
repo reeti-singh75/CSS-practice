@@ -3,16 +3,25 @@ div{
     width: 200px;
     background-color: pink;
     border: 2px solid black;
-    transition-property: all;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    /* transition-property: all;
     transition-duration: 2s;
     transition-timing-function: steps(5);
+    transition: 1s; */
+
+    transition: transform 2s ease-in;
+
 }
 
 
 div:hover{
-    background-color: lightblue;
-    border: 2px solid red;
-    font-size: 30px;
+    /* background-color: lightblue; */
+    /* border: 2px solid red; */
+    /* font-size: 30px; */
+    /* transform: rotate(90deg); */
+    transform: skew(90deg);
 }
 
 
